@@ -25,7 +25,7 @@
     <header>
 
         <!-- Navigation Menu Start  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light my-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-3 fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="d-inline-block align-text-top"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +34,16 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item mx-3">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#slider">Home</a>
                   </li>
                   <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="#product">Product</a>
                   </li>
                   <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#about">About Us</a>
                   </li>
                   <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
                   </li>                  
                 </ul>
               </div>
@@ -53,14 +53,14 @@
 
           <!-- Image Slider Section Start  -->
 
-          <section class="container my-5">
+          <section id="slider" class="container my-5">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner rounded-3">
                   <div class="carousel-item active">
                     <div class="row panda-background d-flex align-items-center p-4">
                         <div class="col-lg-7">                         
@@ -114,23 +114,240 @@
                 </button>
               </div>
           </section>
+
           <!-- Image Slider Section End  -->
     </header>
 
     <main>
+        <!-- Catagories Start  -->
+        <section class="container py-5 catagories">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="d-flex watch-background align-items-center justify-content-between rounded-3 p-3 shadow-lg">
+                        <h1 class="text-white">Watch</h1>
+                        <img src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="d-flex bag-background align-items-center justify-content-between rounded-3 p-3 shadow-lg">
+                        <h1 class="text-white">Backpack</h1>
+                        <img src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="d-flex shoe-background align-items-center justify-content-between rounded-3 p-3 shadow-lg">
+                        <h1 class="text-white">Shoes</h1>
+                        <img src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Shoes Catagories End  -->
+
+        <section id="product" class="container my-3">
+            <h1>Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                <div class="col">
+                  <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title fw-bold">Supply 350</h2>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                      <h4>$1289</h4>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn panda-button text-white px-3 py-2">BUY NOW <i class="ps-2 fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title fw-bold">Nike 360</h2>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                      <h4>$799</h4>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn panda-button text-white px-3 py-2">BUY NOW <i class="ps-2 fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title fw-bold">Red Airmax</h2>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                      <h4>$699</h4>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn panda-button text-white px-3 py-2">BUY NOW <i class="ps-2 fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!--Shoes Catagories End  -->
+
+        <!-- Backpack Catagories Start  -->
+
+        <section id="product" class="container py-5">
+            <h1>Backpack</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                <div class="col">
+                  <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title fw-bold">Ison Backpack</h2>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                      <h4>$1289</h4>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn panda-button text-white px-3 py-2">BUY NOW <i class="ps-2 fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title fw-bold">Biaowang Backpack</h2>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                      <h4>$799</h4>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn panda-button text-white px-3 py-2">BUY NOW <i class="ps-2 fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title fw-bold">Dxyizu WS54 Smart</h2>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                      <h4>$699</h4>
+                    </div>
+                    <div class="m-3">
+                        <button class="btn panda-button text-white px-3 py-2">BUY NOW <i class="ps-2 fas fa-arrow-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Backpack Catagories End  -->
+
+        <!-- Submit Section Start  -->
+
+        <section id="contact"
+        style="height: 450px"
+        class="container panda-background d-flex justify-content-center align-items-center rounded-3 my-5 shadow-lg"
+      >
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <h5 class="text-muted my-3">Get updates on sales specials and more</h5>
+          <p class="fw-bold ">Your Email: <input class="m-2 border-0 rounded-3" type="text" /></p> 
+          <p class="fw-bold">Write Your Opinion: <br> <textarea class="border-0 rounded-3" name="" id="" cols="30" rows="5"></textarea></p> 
+          <button class="btn panda-button text-white px-5 py-3">SUBMIT</button>
+        </div>
+      </section>
+      <!-- Submit Section Start  -->
 
     </main>
 
-    <footer>
+    <!-- Footer Start  -->
+    <footer id="about" class="footer-background text-white pt-3 pb-3">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-dark">About</h5>
+                    <hr class="mb-4 text-dark">
+                    <p class="text-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores beatae vitae quis nisi placeat mollitia corporis est magni voluptatibus. Sit inventore minus corporis aut sequi beatae aliquid quas expedita voluptates.
+                    </p>
+                </div>
 
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-dark">Let Us Help</h5>
+                    <hr class="mb-4 text-dark">
+                    <p>
+                        <a href="" class="text-dark" style="text-decoration: none;">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-dark" style="text-decoration: none;">Your Orders</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-dark" style="text-decoration: none;">Manage Your Content And Devices</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-dark" style="text-decoration: none;">help</a>
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-dark">Make Money</h5>
+                    <hr class="mb-4 text-dark">
+                    <p>
+                        <a href="" class="text-dark" style="text-decoration: none;">Sell Products On Our Website</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-dark" style="text-decoration: none;">Advertise Your Product</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-dark" style="text-decoration: none;">Become An Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-dark" style="text-decoration: none;">Self-Publish</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-dark">Contact</h5>
+                    <hr class="mb-4 text-dark">
+                    <p>
+                        <li class="fas fa-home mr-3"></li> <span class="text-dark">New York NY 2333, US</span> 
+                    </p>
+                    <p>
+                        <li class="fas fa-envelope mr-3"></li> <span class="text-dark">ahhasib47@gmail.com</span>
+                    </p>
+                    <p>
+                        <li class="fas fa-phone mr-3"></li> <span class="text-dark">01740-233993</span>
+                    </p>
+                    <p>
+                        <li class="fas fa-print mr-3"></li> <span class="text-dark">01674-886288</span>
+                    </p>
+                </div>
+
+                <hr class="mb-4 text-dark">
+                <div class="row d-flex justify-content-center">
+                    <div>
+                        <p class="text-dark">
+                            Copyright &copy;2022 All Rights Reserved By: <span class="text-white fw-bold fs-5">Afzal Hossen Hasib </span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href=""><li class="text-dark fab fa-facebook"></li></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=""><li class="text-dark p-3 fab fa-twitter"></li></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=""><li class="text-dark fab fa-youtube"></li></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=""><li class="text-dark p-3 fab fa-google"></li></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
-
-
-
-
-
-
-
+    <!-- Footer End  -->
 
 <!-- Bootstrap Budle Css  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

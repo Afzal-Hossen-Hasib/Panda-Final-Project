@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .price-title{
     color: #FF136F;
 }
@@ -13,6 +23,22 @@
     border: none;
 }
 
+.watch-background{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
 
+.bag-background{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
 
+.shoe-background{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
 
+.catagories img{
+    width: 100px;
+}
+
+.footer-background{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
